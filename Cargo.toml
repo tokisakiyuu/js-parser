@@ -1,20 +1,4 @@
-[package]
-name = "js-parser"
-authors = ["TokisakiYuu"]
-version = "0.1.0"
-edition = "2021"
+[workspace]
 
-# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
-
-[dependencies]
-cfgrammar = "0.13.7"
-lrlex = "0.13.7"
-lrpar = "0.13.7"
-anyhow = "1.0.89"
-serde_json = "1.0.128"
-serde = "1.0.210"
-
-[build-dependencies]
-cfgrammar = "0.13.7"
-lrlex = "0.13.7"
-anyhow = "1.0.89"
+members = ["parser"]
+resolver = "2"
