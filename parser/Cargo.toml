@@ -15,6 +15,7 @@ serde_json = "1.0.128"
 serde = "1.0.210"
 
 [build-dependencies]
+# Doc: https://softdevteam.github.io/grmtools/master/book/index.html
 cfgrammar = "0.13.7"
 lrlex = "0.13.7"
 anyhow = "1.0.89"
